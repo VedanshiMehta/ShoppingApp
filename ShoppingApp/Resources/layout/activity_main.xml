@@ -18,10 +18,7 @@
        android:layout_height="@dimen/size670"
        android:id="@+id/frameLayout">
 
-        <include
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            layout="@layout/dashboardfragmentlayout"/>
+      
 
         </FrameLayout>
 

@@ -28,6 +28,7 @@ namespace ShoppingApp
             _favouriteFragment = new FavouriteFragment();
             _locationFragment = new LocationFragment();
             _personFragment = new PersonFragment();
+            SupportFragmentManager.BeginTransaction().Replace(Resource.Id.frameLayout, _dashboardFragment).Commit();
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

@@ -194,7 +194,7 @@
       <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerViewWishList"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/size100"
+            android:layout_height="@dimen/size90"
             android:layout_marginTop="@dimen/size10"
             app:layout_constraintTop_toBottomOf="@id/textViewWishList"/>
 
