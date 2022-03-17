@@ -9,7 +9,9 @@
 	<dimen name="size30">30dp</dimen>
 	<dimen name="size40">40dp</dimen>
 	<dimen name="size50">50dp</dimen>
-	<dimen name="size56">56dp</dimen>
+	<dimen name="size54">54dp</dimen>
+	<dimen name="size55">55dp</dimen>
+	<dimen name="size60">60dp</dimen>
 	<dimen name="size70">70dp</dimen>
 	<dimen name="size80">80dp</dimen>
 	<dimen name="size90">90dp</dimen>
@@ -18,8 +20,9 @@
 	<dimen name="size160">160dp</dimen>
 	<dimen name="size190">190dp</dimen>
 	<dimen name="size250">250dp</dimen>
-	<dimen name="size730">730dp</dimen>
-	
+	<dimen name="size670">670dp</dimen>
+
+	<dimen name="scale10">10sp</dimen>
 	<dimen name="scale12">12sp</dimen>
 	<dimen name="scale14">14sp</dimen>
 	<dimen name="scale16">16sp</dimen>

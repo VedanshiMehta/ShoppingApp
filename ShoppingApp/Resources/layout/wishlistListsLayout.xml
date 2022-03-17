@@ -2,14 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:layout_width="@dimen/size100"
+    android:layout_width="@dimen/size90"
     android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
         
         android:id="@+id/cardViewWishLists"
-        android:layout_width="@dimen/size90"
-        android:layout_height="@dimen/size90"
+        android:layout_width="@dimen/size80"
+        android:layout_height="@dimen/size80"
         app:cardCornerRadius="@dimen/size20"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -17,10 +17,10 @@
         app:layout_constraintRight_toRightOf="parent">
     <ImageView
         android:id="@+id/imageViewItemImage"
-        android:layout_width="@dimen/size50"
-        android:layout_height="@dimen/size50"
+        android:layout_width="@dimen/size30"
+        android:layout_height="@dimen/size30"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/size5"/>
+        android:layout_marginTop="@dimen/size10"/>
 
     <TextView
         android:id="@+id/textViewItemName"
@@ -29,7 +29,7 @@
         android:textStyle="bold"
         android:textSize="@dimen/scale12"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/size50"
+        android:layout_marginTop="@dimen/size40"
         android:textColor="@color/colorWhite"/>
     </androidx.cardview.widget.CardView>
     
