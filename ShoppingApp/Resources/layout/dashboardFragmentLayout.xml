@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/size20">
+
+    <TextView
+        
+        android:id="@+id/textViewDashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard"
+        android:textSize="@dimen/scale30"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="@dimen/size30"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.cardview.widget.CardView
+        
+        android:id="@+id/cardViewPhoto"
+        android:layout_width="@dimen/size50"
+        android:layout_height="@dimen/size50"
+        app:cardCornerRadius="@dimen/size10"
+        android:layout_marginTop="@dimen/size30"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/size50"
+            android:layout_height="@dimen/size50"
+            android:id="@+id/imageViewPhoto"
+            android:src="@drawable/rachel"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size150"
+        android:id="@+id/cardViewDailySpendTarget"
+        style="@style/CardView.MyBlue"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDashboard"
+        android:layout_marginTop="@dimen/size30">
+
+        <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/texViewMonth"
+             android:text="@string/january"
+             android:layout_gravity="top"
+             android:layout_marginTop="@dimen/size20"
+             android:layout_marginLeft="@dimen/size20"
+             android:textSize="@dimen/scale16"
+             android:textColor="@color/colorWhite"/>
+
+          <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/texViewDollars"
+             android:text="@string/dollars500"
+             android:layout_marginTop="@dimen/size40"
+             android:layout_marginLeft="@dimen/size20"
+             android:textStyle="bold"
+             android:textSize="@dimen/scale30"
+             android:textColor="@color/colorWhite"/>
+
+          <ImageView
+            
+            android:id="@+id/imageViewStatistics"
+            android:layout_width="@dimen/size40"
+            android:layout_height="@dimen/size30"
+            android:src="@drawable/ic_statistics"
+            android:layout_marginRight="@dimen/size20"
+            android:layout_marginTop="@dimen/size40"
+            android:layout_gravity="right"/>
+          <ProgressBar
+            android:layout_width="@dimen/size250"
+            android:layout_height="@dimen/size5"
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.Material.ProgressBar.Horizontal"
+            android:progressDrawable="@drawable/progressbarblue"
+            android:layout_marginTop="@dimen/size90"
+            android:layout_marginLeft="@dimen/size20"
+            android:progress="70"
+            android:max="100"
+            android:background="@color/colorDarkBlack"/>
+          
+          <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/texViewPercentage"
+             android:text="@string/perncent70"
+             android:layout_gravity="right"
+             android:layout_marginTop="@dimen/size80"
+             android:layout_marginRight="@dimen/size20"
+             android:textSize="@dimen/scale20"
+             android:textColor="@color/colorWhite"/>
+           <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/texViewDailyTarget"
+             android:text="@string/dailyTarget"
+             android:layout_gravity="bottom"
+             android:layout_marginBottom="@dimen/size20"
+             android:layout_marginLeft="@dimen/size20"
+             android:textSize="@dimen/scale16"
+             android:textColor="@color/colorWhite"/>
+            <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/texViewSpentTarget"
+             android:text="@string/spentTarget"
+             android:layout_gravity="bottom"
+             android:layout_marginBottom="@dimen/size20"
+             android:layout_marginLeft="@dimen/size160"
+             android:textSize="@dimen/scale16"
+             android:textColor="@color/colorWhite"/>
+    
+    
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        
+        android:id="@+id/textViewDailySpends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/scale12"
+        android:textColor="@color/colorGrey"
+        android:text="@string/dailySpends"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/cardViewDailySpendTarget"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="@dimen/size30"/>
+
+    <TextView
+        
+        android:id="@+id/textViewSeeAllDailySpends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/scale12"
+        android:textColor="@color/colorBlue"
+        android:text="@string/seeAll"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/cardViewDailySpendTarget"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="@dimen/size30"
+        android:layout_marginRight="@dimen/size20"/>
+
+     <androidx.cardview.widget.CardView
+        
+        android:id="@+id/cardViewDailySpend"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size190"
+        app:cardCornerRadius="@dimen/size20"
+        android:layout_marginTop="@dimen/size10"
+        app:layout_constraintTop_toBottomOf="@id/textViewDailySpends">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewDailySpends"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        
+        android:id="@+id/textViewWishList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/colorGrey"
+        android:text="@string/wishList"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/cardViewDailySpend"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="30dp"/>
+    
+    <TextView
+        
+        android:id="@+id/textViewSeeAllWishlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/scale12"
+        android:textColor="@color/colorBlue"
+        android:text="@string/seeAll"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/cardViewDailySpend"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="@dimen/size30"
+        android:layout_marginRight="@dimen/size20"/>
+   
+      <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewWishList"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size100"
+            android:layout_marginTop="@dimen/size10"
+            app:layout_constraintTop_toBottomOf="@id/textViewWishList"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout >

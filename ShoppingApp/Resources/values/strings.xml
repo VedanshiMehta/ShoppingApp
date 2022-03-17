@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ShoppingApp</string>
+    <string name="action_settings">Settings</string>
+	<string name="dashboard">Dashboard</string>
+	<string name="january">January</string>
+	<string name="dollars500">"$" 500</string>
+	<string name="perncent70">70"%"</string>
+	<string name="dailyTarget">Daily spend target: </string>
+	<string name="spentTarget">"$"16.67</string>
+	<string name="dailySpends">DAILY SPENDS</string>
+	<string name="seeAll">See All</string>
+	<string name="wishList">WISHLIST</string>
+	<string name="favourite">FAVOURITE</string>
+	<string name="location">LOCATION</string>
+	<string name="person">PERSON</string>
+</resources>
