@@ -5,7 +5,7 @@
 		<clip>
 			<shape>
 
-				<corners android:radius="5dip" />
+				<corners android:radius="5dp" />
 
 				<solid android:color="#FFFFFF" />
 			</shape>

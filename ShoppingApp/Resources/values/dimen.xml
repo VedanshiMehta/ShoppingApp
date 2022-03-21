@@ -20,7 +20,6 @@
 	<dimen name="size160">160dp</dimen>
 	<dimen name="size190">190dp</dimen>
 	<dimen name="size250">250dp</dimen>
-	<dimen name="size670">670dp</dimen>
 
 	<dimen name="scale10">10sp</dimen>
 	<dimen name="scale12">12sp</dimen>

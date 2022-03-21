@@ -3889,40 +3889,37 @@ namespace ShoppingApp
 			public const int size60 = 2131099882;
 			
 			// aapt resource value: 0x7F0600EB
-			public const int size670 = 2131099883;
+			public const int size70 = 2131099883;
 			
 			// aapt resource value: 0x7F0600EC
-			public const int size70 = 2131099884;
+			public const int size80 = 2131099884;
 			
 			// aapt resource value: 0x7F0600ED
-			public const int size80 = 2131099885;
+			public const int size90 = 2131099885;
 			
 			// aapt resource value: 0x7F0600EE
-			public const int size90 = 2131099886;
+			public const int tooltip_corner_radius = 2131099886;
 			
 			// aapt resource value: 0x7F0600EF
-			public const int tooltip_corner_radius = 2131099887;
+			public const int tooltip_horizontal_padding = 2131099887;
 			
 			// aapt resource value: 0x7F0600F0
-			public const int tooltip_horizontal_padding = 2131099888;
+			public const int tooltip_margin = 2131099888;
 			
 			// aapt resource value: 0x7F0600F1
-			public const int tooltip_margin = 2131099889;
+			public const int tooltip_precise_anchor_extra_offset = 2131099889;
 			
 			// aapt resource value: 0x7F0600F2
-			public const int tooltip_precise_anchor_extra_offset = 2131099890;
+			public const int tooltip_precise_anchor_threshold = 2131099890;
 			
 			// aapt resource value: 0x7F0600F3
-			public const int tooltip_precise_anchor_threshold = 2131099891;
+			public const int tooltip_vertical_padding = 2131099891;
 			
 			// aapt resource value: 0x7F0600F4
-			public const int tooltip_vertical_padding = 2131099892;
+			public const int tooltip_y_offset_non_touch = 2131099892;
 			
 			// aapt resource value: 0x7F0600F5
-			public const int tooltip_y_offset_non_touch = 2131099893;
-			
-			// aapt resource value: 0x7F0600F6
-			public const int tooltip_y_offset_touch = 2131099894;
+			public const int tooltip_y_offset_touch = 2131099893;
 			
 			static Dimension()
 			{
