@@ -95,7 +95,7 @@ namespace ShoppingApp
                 case Resource.Id.person:
 
                     SupportFragmentManager.BeginTransaction().Replace(Resource.Id.frameLayout, _personFragment).Commit();
-                    _textViewTitle.Text = Resources.GetString(Resource.String.location);
+                    
                     break;
 
             }
