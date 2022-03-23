@@ -10,7 +10,7 @@
 	<string name="dailySpends">DAILY SPENDS</string>
 	<string name="seeAll">See All</string>
 	<string name="wishList">WISHLIST</string>
-	<string name="favourite">FAVOURITE</string>
-	<string name="location">LOCATION</string>
-	<string name="person">PERSON</string>
+	<string name="favourite">Favourite</string>
+	<string name="location">Location</string>
+	<string name="person">Person</string>
 </resources>

@@ -12,7 +12,14 @@
     android:layout_height="match_parent"
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintStart_toStartOf="parent">
-
+    
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:theme="@style/Theme.AppCompat.Light"
+        android:layout_marginTop="@dimen/size30"/>
+    
        <FrameLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent"
@@ -26,17 +33,12 @@
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/size70"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@drawable/shape_background">
+        app:fabCradleRoundedCornerRadius="@dimen/size60"
+        app:fabCradleMargin="@dimen/size10"
+        app:menu="@menu/menuoptions">
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-            
-        android:id="@+id/bottomNavigationView"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/size60"
-        app:menu="@menu/menuoptions"
-        app:itemIconTint="@drawable/icon_selector"/>
 
     </com.google.android.material.bottomappbar.BottomAppBar>
 

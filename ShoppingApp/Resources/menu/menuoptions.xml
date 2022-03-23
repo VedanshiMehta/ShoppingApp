@@ -1,22 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <!--For all properties see: https://aka.ms/android-menu-resource-->
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:app="http://schemas.android.com/apk/res-auto">
   
   <item android:id="@+id/home"
-         android:showAsAction="always"
+        app:showAsAction="always"
         android:icon="@drawable/ic_home"/>
 
+	<item android:id="@+id/space1"
+        app:showAsAction="always"/>
+
 	<item android:id="@+id/favourite"
-		android:showAsAction="always"
+		app:showAsAction="always"
 	   android:icon="@drawable/ic_favourite"/>
 
+	<item android:id="@+id/space2"
+	 app:showAsAction="always"/>
+
 	<item android:id="@+id/location"
-	  android:showAsAction="always"
+	  app:showAsAction="always"
 	 android:icon="@drawable/ic_location"/>
 
+	<item android:id="@+id/space3"
+	   app:showAsAction="always"/>
+
 	<item android:id="@+id/person"
-	   android:showAsAction="always"
+	  app:showAsAction="always"
 	  android:icon="@drawable/ic_person"/>
+
+	<item android:id="@+id/space4"
+		app:showAsAction="always"/>
+
+
+
+	
   
 </menu>
 

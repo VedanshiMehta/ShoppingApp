@@ -26,68 +26,13 @@ namespace ShoppingApp
 
         public override int ItemCount => wishlists.WishListNumbers;
 
-        [Obsolete]
+    
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
             ViewHolderWishLists _viewHolderWishLists = holder as ViewHolderWishLists;
             _viewHolderWishLists.BindData(wishlists[position]);
-            if (position == 0)
-            {
-
-                _viewHolderWishLists._cardViewWishlist.SetBackgroundDrawable(context.Resources.GetDrawable(Resource.Drawable.shape_rect_lightBlue));
-
-            }
-            else if (position == 1)
-            {
-
-                _viewHolderWishLists._cardViewWishlist.SetBackgroundDrawable(context.Resources.GetDrawable(Resource.Drawable.shape_rect_red));
-
-            }
-            else if (position == 2)
-            {
-
-                _viewHolderWishLists._cardViewWishlist.SetBackgroundDrawable(context.Resources.GetDrawable(Resource.Drawable.shape_rect_yellow));
-
-            }
-            else if (position == 3)
-            {
-
-                _viewHolderWishLists._cardViewWishlist.SetBackgroundDrawable(context.Resources.GetDrawable(Resource.Drawable.shape_rect_lightGreen));
-            }
-            else if (position == 4)
-            {
-
-                _viewHolderWishLists._cardViewWishlist.SetBackgroundDrawable(context.Resources.GetDrawable(Resource.Drawable.shape_rect_blue));
-            }
-            if (position == 5)
-            {
-
-                _viewHolderWishLists._cardViewWishlist.SetBackgroundDrawable(context.Resources.GetDrawable(Resource.Drawable.shape_rect_lightBlue));
-
-            }
-            else if (position == 6)
-            {
-
-                _viewHolderWishLists._cardViewWishlist.SetBackgroundDrawable(context.Resources.GetDrawable(Resource.Drawable.shape_rect_red));
-
-
-            }
-            else if (position == 7)
-            {
-
-                _viewHolderWishLists._cardViewWishlist.SetBackgroundDrawable(context.Resources.GetDrawable(Resource.Drawable.shape_rect_yellow));
-
-            }
-            else if (position == 8)
-            {
-
-                _viewHolderWishLists._cardViewWishlist.SetBackgroundDrawable(context.Resources.GetDrawable(Resource.Drawable.shape_rect_lightGreen));
-            }
-            else if (position == 9)
-            {
-
-                _viewHolderWishLists._cardViewWishlist.SetBackgroundDrawable(context.Resources.GetDrawable(Resource.Drawable.shape_rect_blue));
-            }
+            _viewHolderWishLists._cardViewWishlist.SetBackgroundResource(wishlists[position].Background);
+           
 
         }
 

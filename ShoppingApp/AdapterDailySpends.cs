@@ -29,48 +29,10 @@ namespace ShoppingApp
         {
             ViewHolderDailySpends _viewHolderDailySpends = holder as ViewHolderDailySpends;
             _viewHolderDailySpends.BindData(dailySpends[position]);
-            if (position == 0)
-            {
-                _viewHolderDailySpends._dailySpendImageView.SetBackgroundResource(Resource.Drawable.shape_rect_red);
+            
+            _viewHolderDailySpends._dailySpendImageView.SetBackgroundResource(dailySpends[position].Background);
 
-            }
-            else if (position == 1)
-            {
-
-                _viewHolderDailySpends._dailySpendImageView.SetBackgroundResource(Resource.Drawable.shape_rect_yellow);
-            }
-            else if (position == 2)
-            {
-                _viewHolderDailySpends._dailySpendImageView.SetBackgroundResource(Resource.Drawable.shape_rect_lightGreen);
-            }
-            if (position == 3)
-            {
-                _viewHolderDailySpends._dailySpendImageView.SetBackgroundResource(Resource.Drawable.shape_rect_red);
-
-            }
-            else if (position == 4)
-            {
-
-                _viewHolderDailySpends._dailySpendImageView.SetBackgroundResource(Resource.Drawable.shape_rect_yellow);
-            }
-            else if (position == 5)
-            {
-                _viewHolderDailySpends._dailySpendImageView.SetBackgroundResource(Resource.Drawable.shape_rect_lightGreen);
-            }
-            if (position == 6)
-            {
-                _viewHolderDailySpends._dailySpendImageView.SetBackgroundResource(Resource.Drawable.shape_rect_red);
-
-            }
-            else if (position == 7)
-            {
-
-                _viewHolderDailySpends._dailySpendImageView.SetBackgroundResource(Resource.Drawable.shape_rect_yellow);
-            }
-            else if (position == 8)
-            {
-                _viewHolderDailySpends._dailySpendImageView.SetBackgroundResource(Resource.Drawable.shape_rect_lightGreen);
-            }
+            
         }
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
